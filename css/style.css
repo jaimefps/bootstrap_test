@@ -1,8 +1,15 @@
 /* personal preference: */
+
+
 /* some space between each section*/
+
+
+/*
 section {
   margin-top: 50px;
 }
+*/
+
 
 /*=============================================================================
                                     DEFAULTS
@@ -21,7 +28,9 @@ Black               : #000
 /*=============================================================================
                                     General CSS
 =============================================================================*/
-html, body {
+
+html,
+body {
   height: 100%;
 }
 
@@ -40,9 +49,11 @@ h3 {
   text-transform: uppercase;
 }
 
+
 /*=============================================================================
                                     HOME
 =============================================================================*/
+
 #home {
   height: 100%;
 }
@@ -67,12 +78,14 @@ h3 {
   color: #fff;
   font-size: 55px;
   font-weight: 700;
-  margin: 20px 0 2px 0 ;
+  margin: 20px 0 2px 0;
 }
+
 
 /*=============================================================================
                                     PARALLAX (Generic)
 =============================================================================*/
+
 .bg-parallax {
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,12 +93,14 @@ h3 {
   background-attachment: fixed;
 }
 
+
 /*=============================================================================
                                     BUTTONS
 =============================================================================*/
+
 .btn-general {
-  border-color: white ;
-  border-radius: 0px ;
+  border-color: white;
+  border-radius: 0px;
   padding: 12px 26px 12px 26px;
   font-size: 16px;
   font-weight: 400;
@@ -97,7 +112,7 @@ h3 {
   color: #fff;
 }
 
-.btn-white:hover, 
+.btn-white:hover,
 .btn-white:focus {
   background-color: #fff;
   color: #41464b;
@@ -108,16 +123,20 @@ h3 {
   color: #34c6d3;
 }
 
-.btn-blue:hover, 
+.btn-blue:hover,
 .btn-blue:focus {
   background-color: #34c6d3;
   color: #fff;
 }
 
+
 /*=============================================================================
                                     ANIMATIONS
 =============================================================================*/
+
+
 /* keep the code DRY */
+
 #home-cover,
 #home-heading,
 #home-btn {
@@ -128,7 +147,7 @@ h3 {
   animation-delay: .1s;
 }
 
-#home-heading{
+#home-heading {
   animation-delay: .5s;
 }
 
@@ -136,9 +155,11 @@ h3 {
   animation-delay: 1s;
 }
 
+
 /*=============================================================================
                                     CONTENT (Generic)
 =============================================================================*/
+
 .content-box {
   padding: 60px 0 60px 0;
 }
@@ -150,11 +171,15 @@ h3 {
   margin: 0 0 30px 0;
 }
 
+.content-title-white h3 {
+  color: #fff;
+}
+
 .content-title-underline {
   width: 30px;
   height: 3px;
   background-color: #34c6d3;
-/*  left/right-side margin set to auto center item (the small underline for the title in this case)*/
+  /*  left/right-side margin set to auto center item (the small underline for the title in this case)*/
   margin: 0 auto 30px auto;
 }
 
@@ -162,6 +187,7 @@ h3 {
 /*=============================================================================
                                     SERVICES
 =============================================================================*/
+
 .service-item {
   padding: 20px 0 20px 0;
   margin-bottom: 20px;
@@ -199,14 +225,16 @@ h3 {
                                     ABOUT
 =============================================================================*/
 
+
 /* div with a diagonal side */
+
 #about-bg-diagonal {
   width: 60%;
   height: 700px;
   float: right;
   background-image: url("../img/bg-about.jpg");
   border-left: 200px solid white;
-  border-top: 700px solid transparent; 
+  border-top: 700px solid transparent;
 }
 
 #about-content-box {
@@ -242,25 +270,32 @@ h3 {
                                     OUR WORK
 =============================================================================*/
 
+
 /* [class*col-] : selects all(*) of the elements with class "col-" inside of the "no-gutters row" */
+
 .row.no-gutters [class*=col-] {
   padding-left: 0;
-  padding-right: 0;  
+  padding-right: 0;
 }
+
 
 /* zooms-in for image and hides the overflow of the image 
 so that it stays within its given square space;
 transition makes the zooms smooth instead of instant */
+
 .img-wrapper {
   overflow: hidden;
 }
+
 .img-wrapper img {
   transition: transform .5s ease;
 }
+
 .img-wrapper img:hover {
   transform: scale(1.5);
   cursor: zoom-in;
 }
+
 
 /*=============================================================================
                                     TEAM
@@ -271,7 +306,8 @@ transition makes the zooms smooth instead of instant */
 }
 
 .team-member-info {
-  padding: 10px 0 30px 0;;
+  padding: 10px 0 30px 0;
+  ;
 }
 
 h4.team-member-name {
@@ -290,12 +326,13 @@ h4.team-member-designation {
   margin-top: 5px;
 }
 
+
 /*=============================================================================
                                     SOCIAL ICONS
 =============================================================================*/
 
 .social-list {
-  padding-left: 0; 
+  padding-left: 0;
 }
 
 .social-list li {
@@ -320,6 +357,75 @@ h4.team-member-designation {
 }
 
 
+/*=============================================================================
+                                    TESTIMONIALS
+=============================================================================*/
+
+#testimonials-cover {
+  background-image: url("../img/bg-testimonials.jpg");
+}
+
+#testimonials .content-box {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#customers-testimonials {
+  padding: 50px 0;
+}
+
+.testimonial img {
+  max-width: 120px;
+  margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+  border: 0;
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  color: #fff;
+  padding: 6px 150px;
+  position: relative;
+}
+
+.testimonial blockquote p {
+  color: #fff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+  font-size: 80px;
+  font-style: normal;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+
+/* css with the "before" selector */
+.testimonial blockquote::before {
+  content: "\201C";
+  top: 0;
+  left: 50px;
+}
+
+
+/* css with the "after" selector */
+
+.testimonial blockquote::after {
+  content: "\201D";
+  bottom: 0;
+  right: 50px;
+}
+
+.testimonial-author p {
+  color: white;
+  font-size: 17px;
+}
+
+.testimonial-author p strong {
+  display: block;
+}
 
 
 

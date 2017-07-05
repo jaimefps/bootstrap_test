@@ -50,7 +50,22 @@ $(function(){
 });
 
 
+/*=============================================================================
+                                    TESTIMONIALS
+=============================================================================*/
 
+// create carousel-effect with the OwlCarousel jQuery library
+$(function(){
+  
+  $("#customers-testimonials").owlCarousel({
+    items: 1,
+    autoplay: true,
+    smartSpeed: 600,
+    loop: true,
+//    autoplayHoverPause: true,
+  });
+  
+});
 
 
 
