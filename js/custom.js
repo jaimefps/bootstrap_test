@@ -30,3 +30,29 @@ $(function () {
   });
   
 });
+
+
+/*=============================================================================
+                                    OUR TEAM CAROUSEL
+=============================================================================*/
+
+// create carousel-effect with the OwlCarousel jQuery library
+$(function(){
+  
+  $("#team-members").owlCarousel({
+    items: 3,
+    autoplay: true,
+    smartSpeed: 600,
+    loop: true,
+//    autoplayHoverPause: true,
+  });
+  
+});
+
+
+
+
+
+
+
+

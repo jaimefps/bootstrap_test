@@ -1,3 +1,9 @@
+/* personal preference: */
+/* some space between each section*/
+section {
+  margin-top: 50px;
+}
+
 /*=============================================================================
                                     DEFAULTS
 
@@ -134,7 +140,7 @@ h3 {
                                     CONTENT (Generic)
 =============================================================================*/
 .content-box {
-  padding: 60px 0;
+  padding: 60px 0 60px 0;
 }
 
 .content-title h3 {
@@ -157,7 +163,7 @@ h3 {
                                     SERVICES
 =============================================================================*/
 .service-item {
-  padding: 20px 0;
+  padding: 20px 0 20px 0;
   margin-bottom: 20px;
   cursor: pointer;
 }
@@ -192,15 +198,15 @@ h3 {
 /*=============================================================================
                                     ABOUT
 =============================================================================*/
-/* this is the div with a diagonal side */
+
+/* div with a diagonal side */
 #about-bg-diagonal {
   width: 60%;
   height: 700px;
   float: right;
   background-image: url("../img/bg-about.jpg");
   border-left: 200px solid white;
-  border-top: 700px solid transparent;
-  
+  border-top: 700px solid transparent; 
 }
 
 #about-content-box {
@@ -253,10 +259,65 @@ transition makes the zooms smooth instead of instant */
 }
 .img-wrapper img:hover {
   transform: scale(1.5);
+  cursor: zoom-in;
 }
 
+/*=============================================================================
+                                    TEAM
+=============================================================================*/
 
+.team-member {
+  margin: 0 15px;
+}
 
+.team-member-info {
+  padding: 10px 0 30px 0;;
+}
+
+h4.team-member-name {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+h4.team-member-designation {
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+/*=============================================================================
+                                    SOCIAL ICONS
+=============================================================================*/
+
+.social-list {
+  padding-left: 0; 
+}
+
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.social-icon i {
+  font-size: 17px;
+}
+
+.icon-gray {
+  color: #64707b;
+}
+
+.social-icon i:hover {
+  color: #34c6d3;
+}
 
 
 
