@@ -633,3 +633,63 @@ form .form-control {
 #footer-menu a:hover {
   color: #34c6d3;
 }
+
+
+/*=============================================================================
+                                    NAVBAR
+=============================================================================*/
+
+.navbar {
+  padding: 20px 0;
+  /*  makes all transitions smooth (see custom.js line 103- 120)*/
+  transition: all .5s ease-in-out;
+}
+
+.vesco-top-nav {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 7px 0;
+}
+
+.vesco-nav-wrapper {
+  padding: 0 85px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+
+/* Many of the following won't work without "!important".
+is bootstrap blocking the override or something? */
+
+.navbar-nav>li>a {
+  color: #fff !important;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+  background: none;
+  color: #34c6d3 !important;
+}
+
+.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-collapse {
+  max-height: none !important;
+}
+
+.vesco-top-nav ul.navbar-nav>li.active>a {
+  color: #34c6d3 !important;
+}

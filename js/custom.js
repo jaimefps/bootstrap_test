@@ -75,7 +75,7 @@ $(function () {
 $(function () {
   $('.counter').counterUp({
     delay: 10,
-    time: 5000,
+    time: 3000,
   });
 });
 
@@ -95,4 +95,34 @@ $(function () {
     //    autoplayHoverPause: true,
   });
 
+});
+
+/*=============================================================================
+                                    NAVBAR
+=============================================================================*/
+// show / hide navbar black background
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() < 50) {
+      $("nav").removeClass("vesco-top-nav");
+    } else {
+      $("nav").addClass("vesco-top-nav");
+    }
+  });
+});
+
+
+// smooth-scroll effect to move to page section when clicking navbar
+$(function () {
+  $("a.smooth-scroll").click(function (event) {
+    event.preventDefault();
+    // get/return id of the clicked link
+    let section = $(this).attr("href");
+    // pass the "section" variable to the function
+    $('html, body').animate({
+      scrollTop: $(section).offset().top - 20
+      // second parameter is the animation speed.
+      // third parameter is the easing-effect 
+    }, 1250, "easeInOutExpo");
+  });
 });
