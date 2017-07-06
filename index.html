@@ -34,6 +34,48 @@
 </head>
 
 <body>
+ 
+<!-- Bootstrap used to create navbar -->
+  <header>
+   
+    <!-- use BS classes to create the navbar and give it many of its effects  -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <div class="container-fluid">
+       <div class="vesco-nav-wrapper">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collpased" data-toggle="collapse" data-target="#vesco-menu">
+              <span class="sr-only">toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+           <a href="" class="navbar-brand">
+             <img src="img/logo.png" alt="logo">
+           </a>
+         </div>
+         
+         <div id="vesco-menu" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#service">Service</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#work">Work</a></li>
+             <li><a href="#team">Team</a></li>
+             <li><a href="#testimonials">Testimonils</a></li>
+             <li><a href="#pricing">Pricing</a></li>
+             <li><a href="#stats">Stats</a></li>
+             <li><a href="#clients">Clients</a></li>
+             <li><a href="#contact">Contacts</a></li>
+           </ul>
+         </div>
+         
+       </div>
+     </div>
+      
+    </nav>
+    
+  </header>
+ 
   <!-- HOME -->
   <section id="home">
     <div id="home-cover" class="bg-parallax animated fadeIn">
@@ -355,7 +397,7 @@
     </div>
   </section>
 
-  <!--  TESTOMONIALS -->
+  <!-- TESTOMONIALS -->
   <section id="testimonials">
     <div id="testimonials-cover" class="bg-parallax">
       <div class="content-box">
@@ -424,7 +466,7 @@
     </div>
   </section>
 
-  <!--  PRICING -->
+  <!-- PRICING -->
   <section id="pricing">
     <div class="content-box">
       <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
@@ -512,62 +554,192 @@
 
     </div>
   </section>
-  
-  <!--  STATS-->
-    <section id="stats">
-       <div id="stats-cover" class="bg-parallax">
-        <div class="content-box">
-         
-          <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
-            <h3> We Never Stop Improving </h3>
-            <div class="content-title-underline"></div>
-          </div>
 
-          <div class="container">
-           
-            <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-              <div class="col-md-3">
-                <div class="stats-item">
-                  <i class="fa fa-cloud-download fa-5x"></i>
-                  <h2><span class="counter"> 1590 </span><span>+</span></h2>
-                  <p>Downloads</p>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="stats-item">
-                  <i class="fa fa-star-o fa-5x"></i>
-                  <h2><span class="counter"> 91 </span><span>+</span></h2>
-                  <p>Awards</p>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="stats-item">
-                  <i class="fa fa-heart-o fa-5x"></i>
-                  <h2><span class="counter"> 1199 </span><span>+</span></h2>
-                  <p>Likes</p>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="stats-item">
-                  <i class="fa fa-check fa-5x"></i>
-                  <h2><span class="counter"> 2200 </span><span>+</span></h2>
-                  <p>Recomended</p>
-                </div>
+  <!-- STATS-->
+  <section id="stats">
+    <div id="stats-cover" class="bg-parallax">
+      <div class="content-box">
+
+        <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+          <h3> We Never Stop Improving </h3>
+          <div class="content-title-underline"></div>
+        </div>
+
+        <div class="container">
+
+          <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="col-md-3">
+              <div class="stats-item">
+                <i class="fa fa-cloud-download fa-5x"></i>
+                <h2><span class="counter"> 1590 </span><span>+</span></h2>
+                <p>Downloads</p>
               </div>
             </div>
-            
+            <div class="col-md-3">
+              <div class="stats-item">
+                <i class="fa fa-star-o fa-5x"></i>
+                <h2><span class="counter"> 91 </span><span>+</span></h2>
+                <p>Awards</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stats-item">
+                <i class="fa fa-heart-o fa-5x"></i>
+                <h2><span class="counter"> 1199 </span><span>+</span></h2>
+                <p>Likes</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="stats-item">
+                <i class="fa fa-check fa-5x"></i>
+                <h2><span class="counter"> 2200 </span><span>+</span></h2>
+                <p>Recomended</p>
+              </div>
+            </div>
           </div>
-          
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section id="clients">
+    <div class="content-box">
+      <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <h3> Our Clients</h3>
+        <div class="content-title-underline"></div>
+      </div>
+
+      <div class="container">
+        <div class="row wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="col-md-12">
+
+            <div id="clients-list" class="owl-carousel owl-theme">
+
+              <div class="client">
+                <img src="img/client/logos/logo-1.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-2.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-3.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-4.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-5.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-6.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-7.jpg" class="img-responsive" alt="client">
+              </div>
+              <div class="client">
+                <img src="img/client/logos/logo-8.jpg" class="img-responsive" alt="client">
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-  
-  
-  
-  <!--temporary space-->
-  <br><br><br><br><br><br><br><br><br><br>
-  <br><br><br><br><br><br><br><br><br><br>
-  <br><br><br><br><br><br><br><br><br><br>
+
+    </div>
+  </section>
+
+  <footer>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div id="contact-left">
+              <h3>WESCO</h3>
+              <p>Lorem ipsum dolor <strong> SIMPLE </strong> <strong> CLEAN </strong> <strong> MODERN </strong>sit amet, consectetur adipisicing elit. Ipsum et corporis tempora aperiam </p>
+              <div id="contact-info">
+                <address>
+                  <strong>Headquarters</strong>
+                  <p> 221 Streeet St., Office # <br>
+                  Sometown OR 97123 </p>
+                </address>
+                <div id="phone-fax-email">
+                  <p>
+                    <strong>phone: </strong><span>(55) 555 5555</span><br>
+                    <strong>fax: </strong><span>(55) 666 6666</span><br>
+                    <strong>email: </strong><span>info@wesco.email</span><br>
+                  </p>
+                </div>
+              </div>
+
+              <ul class="social-list">
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-youtube-play"></i></a></li>
+                <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="contact-right">
+              <div id="contact-right">
+
+                <h3>Contact Us</h3>
+                <form action="#">
+                  <input type="text" name="fullname" placeholder="fullname" class="form-control">
+                  <input type="text" name="email" placeholder="email address" class="form-control">
+                  <textarea name="message" rows="5" placeholder="message..." class="form-control"></textarea>
+
+                  <div id="send-btn">
+                    <a href="#" class="btn btn-lg btn-general btn-white" role="button">SEND</a>
+                  </div>
+                </form>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer-bottom">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <div id="fotter-copyrights">
+              <p>Copyrights &copy; 2017 All Right Reserved by Wesco Inc.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div id="footer-menu">
+              <ul>
+                <li><a href="#home">Home</a>/</li>
+                <li><a href="#services">Services</a>/</li>
+                <li><a href="#work">Work</a>/</li>
+                <li><a href="#team">Team</a>/</li>
+                <li><a href="#testimonials">Testimonials</a>/</li>
+                <li><a href="#pricing">Pricing</a>/</li>
+                <li><a href="#stats">Stats</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
 
   <script src="js/jquery.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

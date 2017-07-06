@@ -352,6 +352,10 @@ h4.team-member-designation {
   color: #64707b;
 }
 
+.icon-white i {
+  color: white;
+}
+
 .social-icon i:hover {
   color: #34c6d3;
 }
@@ -489,8 +493,9 @@ ul.pricing-spec li p {
   color: white;
 }
 
+
 /*=============================================================================
-                                    PRICING BOXES
+                                    STATS
 =============================================================================*/
 
 #stats-cover {
@@ -525,25 +530,106 @@ ul.pricing-spec li p {
 }
 
 
+/*=============================================================================
+                                    CLIENTS
+=============================================================================*/
+
+.client {
+  padding: 40px 0;
+}
 
 
+/*=============================================================================
+                                    CONTACT
+=============================================================================*/
+
+footer {
+  background-color: #41464b;
+  padding-top: 30px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+#contact-left p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#contact-info {
+  background-image: url("../img/world-map.png");
+  background-repeat: no-repeat;
+  /* scales the background image to the largest possible size in the content area */
+  background-size: contain;
+}
+
+address {
+  color: white;
+}
+
+address strong,
+#phone-fax-email strong {
+  letter-spacing: 1px;
+}
+
+form .form-control {
+  background: transparent;
+  border-radius: 0;
+  border-color: white;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
 
 
+/*=============================================================================
+                                    FOOTER
+=============================================================================*/
 
+#footer-bottom {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  margin-top: 60px;
+}
 
+#footer-copyrights p {
+  margin: 0;
+  color: #fff;
+}
 
+#footer-menu {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
 
+#footer-menu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 
+#footer-menu ul li {
+  display: inline-block;
+}
 
+#footer-menu a {
+  color: white;
+  font-stretch: semi-expanded;
+  16px;
+  font-weight: 300;
+  margin: 0 10px;
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#footer-menu a:hover {
+  color: #34c6d3;
+}
