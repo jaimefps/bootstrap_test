@@ -101,12 +101,19 @@ $(function () {
                                     NAVBAR
 =============================================================================*/
 // show / hide navbar black background
+// show / hide back-to-top button
 $(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() < 50) {
+      
       $("nav").removeClass("vesco-top-nav");
+      $("#back-to-top").fadeOut();
+      
     } else {
+      
       $("nav").addClass("vesco-top-nav");
+      $("#back-to-top").fadeIn();
+      
     }
   });
 });
@@ -126,3 +133,4 @@ $(function () {
     }, 1250, "easeInOutExpo");
   });
 });
+
