@@ -130,25 +130,27 @@ h3 {
                                     ANIMATIONS
 =============================================================================*/
 
-
 /* keep the code DRY */
-
 #home-cover,
 #home-heading,
 #home-btn {
-  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
 }
 
 #home-cover {
-  animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
 }
 
 #home-heading {
-  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
 #home-btn {
-  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 
@@ -264,9 +266,7 @@ h3 {
                                     OUR WORK
 =============================================================================*/
 
-
 /* [class*col-] : selects all(*) of the elements with class "col-" inside of the "no-gutters row" */
-
 .row.no-gutters [class*=col-] {
   padding-left: 0;
   padding-right: 0;
@@ -282,11 +282,18 @@ transition makes the zooms smooth instead of instant */
 }
 
 .img-wrapper img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  -o-transition: transform .5s ease;
   transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .img-wrapper img:hover {
-  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
 
@@ -639,6 +646,8 @@ form .form-control {
 .navbar {
   padding: 20px 0;
   /*  makes all transitions smooth (see custom.js line 103- 120)*/
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 

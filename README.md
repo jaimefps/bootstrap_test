@@ -14,3 +14,4 @@ Techs used:
 7. jQuery easing plugin (for navbar effects)
 8. font awesome (icons)
 9. CSS3 media queries
+10. scroll spies
