@@ -1,16 +1,3 @@
-/* personal preference: */
-
-
-/* some space between each section*/
-
-
-/*
-section {
-  margin-top: 50px;
-}
-*/
-
-
 /*=============================================================================
                                     DEFAULTS
 
@@ -234,9 +221,7 @@ h3 {
                                     ABOUT
 =============================================================================*/
 
-
 /* div with a diagonal side */
-
 #about-bg-diagonal {
   width: 60%;
   height: 700px;

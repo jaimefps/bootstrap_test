@@ -13,3 +13,4 @@ Techs used:
 6. Counter-Up (jQuery counter plugin)
 7. jQuery easing plugin (for navbar effects)
 8. font awesome (icons)
+9. CSS3 media queries

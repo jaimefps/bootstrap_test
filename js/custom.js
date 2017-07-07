@@ -44,7 +44,22 @@ $(function () {
     autoplay: true,
     smartSpeed: 600,
     loop: true,
-    //    autoplayHoverPause: true,
+    autoplayHoverPause: true,
+    // responsive resizing of carousel, 
+    // see owl-carousel docs for details.
+    responsive: {
+      // breakpoint from 0 and up
+      0: {
+        // number of items shown at a time
+        items: 1
+      },
+      480: {
+        items: 2
+      },
+      768: {
+        items: 3
+      }
+    }
   });
 
 });
@@ -92,7 +107,26 @@ $(function () {
     autoplay: true,
     smartSpeed: 600,
     loop: true,
-    //    autoplayHoverPause: true,
+    autoplayHoverPause: true,
+    
+    // responsive resizing of carousel, 
+    // see owl-carousel docs for details.
+    responsive: {
+      // breakpoint from 0 and up
+      0: {
+        // number of items shown at a time
+        items: 1
+      },
+      480: {
+        items: 3
+      },
+      768: {
+        items: 5
+      },
+      992: {
+        items: 6
+      }
+    }
   });
 
 });
