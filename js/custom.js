@@ -118,7 +118,6 @@ $(function () {
   });
 });
 
-
 // smooth-scroll effect to move to page section when clicking navbar
 $(function () {
   $("a.smooth-scroll").click(function (event) {
@@ -133,4 +132,30 @@ $(function () {
     }, 1250, "easeInOutExpo");
   });
 });
+
+// close mobile navbar menu on click
+
+$(function () {
+  $(".navbar-collapse ul li a").on("click touch", function () {
+    $(".navbar-toggle").click();
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

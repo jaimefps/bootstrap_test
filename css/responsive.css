@@ -1,0 +1,67 @@
+/*=============================================================================
+                          BOOTSTRAP & MEDIA QUERIES
+=============================================================================*/
+
+/* LARGE devices (desktops and laptops) 1200px and up */
+@media (min-width: 1200px) {
+  /*  no need for size specific code */
+}
+
+
+/* MEDIUM devices (landscape tablets and medium desktops) */
+@media (min-width: 992px) and (max-width: 1199px){
+  .navbar: {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+  }
+  .navbar-nav {
+    float: left;
+  }
+  .vesco-nav-wrapper {
+    padding: 0;
+  }
+}
+
+
+/* SMALL devices (portrait tablets and small desktops) */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/* Xtra-SMALL devices (landscape phone and portrait tablets) */
+@media (max-width: 767px){
+  
+}
+
+
+/* Xtra-SMALL devices (smaller devices) */
+@media (max-width: 480px){
+
+}
+
+
+/* Xtra-SMALL devices (smaller devices) */
+@media (max-width: 320px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
