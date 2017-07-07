@@ -4,11 +4,11 @@
 <head>
   <!--required meta tags-->
   <meta charset="UTF-8">
-  
+
   <!-- basic SEO -->
   <meta name="description" content="building modern responsive website with html5, css3, jQuery & bootstrap frameworks">
   <meta name="keywords" content="HTML5, CSS3, jQuery, Bootstrap, Web  Design, Web Development, Responsive Website, Modern Website">
-  
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- responsive styling -->
   <link rel="stylesheet" href="css/responsive.css">
-  
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
@@ -47,7 +47,7 @@
   <header>
 
     <!-- use BS classes to create the navbar and give it many of its effects  -->
-    <nav class="navbar navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
         <div class="vesco-nav-wrapper">
           <div class="navbar-header">
@@ -115,10 +115,10 @@
       <!--  first row  -->
       <div class="container">
 
-        <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+        <div class="row">
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item">
+            <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
               <div class="service-item-icon">
                 <i class="fa fa-paint-brush fa-3x"></i>
               </div>
@@ -132,7 +132,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item">
+            <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
               <div class="service-item-icon">
                 <i class="fa fa-laptop fa-3x"></i>
               </div>
@@ -146,7 +146,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item">
+            <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
               <div class="service-item-icon">
                 <i class="fa fa-tablet fa-3x"></i>
               </div>
@@ -161,7 +161,7 @@
 
           <!--  second row  -->
           <div class="col-md-4 col-sm-6">
-            <div class="service-item">
+            <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
               <div class="service-item-icon">
                 <i class="fa fa-search fa-3x"></i>
               </div>
@@ -175,7 +175,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item">
+            <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
               <div class="service-item-icon">
                 <i class="fa fa-pencil-square-o fa-3x"></i>
               </div>
@@ -189,7 +189,7 @@
           </div>
 
           <div class="col-md-4 col-sm-6">
-            <div class="service-item">
+            <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
               <div class="service-item-icon">
                 <i class="fa fa-life-ring fa-3x"></i>
               </div>
@@ -234,7 +234,7 @@
                 </div>
 
                 <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                  <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button">
+                  <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="#work" role="button" title="View Work">
                     Our Work
                   </a>
                 </div>
@@ -660,7 +660,7 @@
 
     </div>
   </section>
-  
+
   <!-- FOOTER -->
   <footer>
     <div id="contact">
@@ -696,22 +696,22 @@
           </div>
 
           <div class="col-md-6">
+
             <div id="contact-right">
-              <div id="contact-right">
 
-                <h3>Contact Us</h3>
-                <form action="#">
-                  <input type="text" name="fullname" placeholder="fullname" class="form-control">
-                  <input type="text" name="email" placeholder="email address" class="form-control">
-                  <textarea name="message" rows="5" placeholder="message..." class="form-control"></textarea>
+              <h3>Contact Us</h3>
+              <form action="#">
+                <input type="text" name="fullname" placeholder="fullname" class="form-control">
+                <input type="text" name="email" placeholder="email address" class="form-control">
+                <textarea name="message" rows="5" placeholder="message..." class="form-control"></textarea>
 
-                  <div id="send-btn">
-                    <a href="#" class="btn btn-lg btn-general btn-white" role="button">SEND</a>
-                  </div>
-                </form>
+                <div id="send-btn">
+                  <a href="#" class="btn btn-lg btn-general btn-white" role="button">SEND</a>
+                </div>
+              </form>
 
-              </div>
             </div>
+
           </div>
 
         </div>
@@ -748,9 +748,9 @@
       </div>
     </div>
 
-    <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll" title="home" role="button"><i class="fa fa-angle-up"></i>
+    <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button"><i class="fa fa-angle-up"></i>
     <fa-angle-up></fa-angle-up></a>
-    
+
   </footer>
 
 

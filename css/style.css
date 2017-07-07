@@ -566,6 +566,10 @@ address {
   color: white;
 }
 
+address strong {
+  font-size: 16px;
+}
+
 address strong,
 #phone-fax-email strong {
   letter-spacing: 1px;
