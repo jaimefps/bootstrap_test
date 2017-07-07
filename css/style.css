@@ -468,7 +468,7 @@ ul.pricing-spec {
 }
 
 ul.pricing-spec li p {
-  font-weight: 400px;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -621,8 +621,7 @@ form .form-control {
 
 #footer-menu a {
   color: white;
-  font-stretch: semi-expanded;
-  16px;
+  font-size: 16px;
   font-weight: 300;
   margin: 0 10px;
   text-decoration: none;
